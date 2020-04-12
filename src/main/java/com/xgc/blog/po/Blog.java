@@ -21,6 +21,7 @@ public class Blog {
     private Long id;
 
     private String title;
+    private String description;
 
     @Basic(fetch = FetchType.LAZY)
     @Lob
